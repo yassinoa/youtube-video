@@ -1,0 +1,72 @@
+.contr{
+  width: 30%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.vid{
+  display: flex;
+  margin-bottom: 15px;
+}
+.imgvid{
+  height: 120px;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.namev{
+  font-size: 11px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    font-weight: bold;
+}
+.namec{
+  font-size: 13px;
+  color: #c1c1c1 ;
+}
+.vue{
+  font-size: 13px;
+  color: #c1c1c1 ;
+}
+
+
+
+
+.containerr:hover{
+  cursor: pointer;
+}
+.containerr {
+  position: relative;
+  z-index: 1;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+ 
+  transition: .5s ease;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerr:hover .image {
+  opacity: 0.3;
+}
+
+.containerr:hover .middle {
+  opacity: 1;
+}
+.text i{
+  font-size:50px;
+  color: red
+}

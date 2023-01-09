@@ -1,0 +1,156 @@
+.contL{
+  width: 65%;
+}
+
+.conten{
+  width: 100%;
+}
+.imgc{
+  border-radius: 50%;
+    width: 50px;
+}
+.chanel{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+.chanell{
+  display: flex;
+  width: 30%;
+    justify-content: space-between;
+}
+.name h5{
+  font-size: 16px;
+}
+.name h6{
+  color: grey;
+  font-size: 12px;
+}
+.abon{
+  background-color: black;
+    color: white;
+    border-radius: 35px;
+    height: 40px;
+}
+.chanelr{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.like{
+  display: flex;
+  border-radius:30px;
+  background-color: #efefef;
+  /*padding: 7px 14px;*/
+}
+.like i{
+  font-size: 25px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.liker{
+  display: flex;
+  border-right: solid 1px #a8a8a8;
+  padding-right:13px;
+  
+  padding: 10px 14px;
+  border-bottom-left-radius : 30px;
+  border-top-left-radius : 30px;
+}
+.liker:hover , .dislake:hover ,.share:hover{
+  background-color: #a8a8a8;
+}
+.dislake{
+  padding: 10px 14px;
+  border-bottom-right-radius : 30px;
+  border-top-right-radius : 30px;
+}
+.share{
+  display: flex;
+  background-color: #efefef;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+.share i{
+  font-size: 25px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.desc{
+  background-color: #efefef;
+  border-radius: 15px;
+  padding: 20px 25px;
+  margin-top: 25px;
+}
+.descb{
+  color: blue;
+}
+.commentnbr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imgp{
+  
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+}
+.commentadd{
+  display: flex;
+
+}
+.commentadd input{
+margin-left: 20px;
+border: none;
+width: 70%;
+}
+.commentadd input:focus {
+  outline: none;
+}
+
+.commentall{
+  display: flex;
+  margin-top: 20px;
+}
+
+.comname{
+  display: flex;
+  
+}
+.comname h6{
+  font-size: 15px;
+}
+.comname span{
+  color :#a8a8a8;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.commentname{
+  margin-left:20px;
+}
+
+.reply{
+  display: flex;
+}
+.comlike{
+  
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comlike:hover{
+  background-color: #a8a8a8;
+}
+.comlike i{
+  font-size: 25px;
+  padding: 7px;
+  
+}
+.rep{
+  padding: 7px;
+  
+  border-radius: 26px;
+}
+.rep:hover{
+  background-color: #a8a8a8;
+}
